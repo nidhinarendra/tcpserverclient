@@ -4,4 +4,4 @@ RM =rm
 all: Server.c Client.c
 	gcc -o server Server.c
 	gcc -o client Client.c
- 
+	./server 
